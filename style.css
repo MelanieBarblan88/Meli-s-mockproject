@@ -1,0 +1,352 @@
+/* header */
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: brown;
+  color: white;
+  padding: 16px ;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+  background-color:  rgb(111, 28, 28);
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  font-size: 20px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: brown;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.card-body{
+  font-size: 20px;
+}
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: whitesmoke;
+  padding: 12px 16px;
+ 
+ text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color:rgb(111, 28, 28)}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+/* ul id -> # */
+
+body{background-color:black;
+}
+header{
+    background-color: black;
+    border-bottom: 5px solid rgb(71, 71, 71);
+    color:whitesmoke;
+}
+
+.topnav .active{
+  color: white;
+  text-decoration: none;
+}
+ul{
+    display:inline;
+  justify-content: end;
+  margin-top: 50px;
+  
+}
+ul li{
+    padding-right: 50px;
+    display: inline;
+    float: right;
+    color: white;
+    font-size: 30px;
+}
+.logo {
+        padding: 0px  10px 10px  10px;
+        margin: 0px;
+    }
+/* Font */
+h1{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 40px;
+color:whitesmoke
+}
+h2{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 30px;
+  color:whitesmoke
+}
+
+h3{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+}
+  
+  p{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 30px;
+}
+/* header */
+/* ul id -> # */
+body{
+ justify-content: center;
+ background-color: black;
+}
+
+
+.mainImage {
+    position: flex;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+   /* text on the image*/
+.centered1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .container {
+    position: relative;
+    text-align: center;
+    padding:20px;
+    align-items: center;
+  }
+
+  
+  .box {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    background-color: brown;
+    padding: 15px 15px 15px 15px;
+    color: rgb(240, 218, 218);
+    border: 5px solid black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+/* 3 images below */
+.flex-container {
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: center; /* aligns the flex items at the center of the container*/
+  
+}
+.Row{
+  display:flex;
+}
+.Item{
+  display:flex;
+  flex:1;
+  flex-direction: row;
+  padding:15px 15px 15px 15px;
+}
+
+/* 3 images below with button*/
+.ItemImage1 {
+  position: relative;
+  width: 100%;
+ 
+}
+
+ .ItemImage1 img {
+   width: 100%;
+  height: auto;
+ 
+}
+.btn{
+  position: absolute;
+  text-decoration: none;
+  width: 100%;
+}
+.ItemImage1 img .btn {
+  position: absolute;
+  
+  text-decoration: none;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: brown;
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  
+  text-align: start;
+}
+
+.ItemImage1 .btn:hover {
+  background-color: rgb(111, 28, 28);
+  
+}
+
+/* .container1 {
+  position: fixed;
+  text-align: center;
+  padding:20px;
+  
+}
+.column.btn1 {
+  position: fixed;
+}*/
+  .btn{
+    display: flex;
+ 
+  background-color:brown;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+  font-size:26px;
+  padding: 12px 24px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+/* ..column.btn2 {
+  position: fixed;
+}
+
+  .btn2{
+    display: flex;
+    top: 785px;
+    left: 760px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color:brown;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+  font-size:26px;
+  padding: 12px 24px;
+    cursor: pointer;
+  border-radius: 5px;
+}
+/*
+.column.btn3 {
+  position: fixed;
+}
+  .btn3{
+    position: fixed;
+    top: 785px;
+    left: 1480px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color:brown;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+  font-size:26px;
+  padding: 12px 24px;
+  cursor: pointer;
+  border-radius: 5px;
+   }
+
+
+  /* .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    margin: 10px;
+    padding: 10px;
+    
+  }
+*/
+
+  /* footer */
+  footer{
+    background-color: black;
+    color:whitesmoke;
+    text-align: center;
+    border-top: 5px solid rgb(71, 71, 71);
+    position:fixed;
+    width:100vw;
+    bottom:0px; 
+  
+
+}
+
+/* 3 menu */
+.containerMenu{
+text-align: center;
+color: whitesmoke;
+}
+
+
+/* meet our team page 2*/
+
+
+.column2 {
+  position:fixed;
+ float:left;
+  width: 20%;
+  padding: 10px;
+  position: relative;
+  
+  
+}
+
+.text-block {
+  position:relative;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+/* contact us page 4*/
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color:brown;
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: rgb(111, 28, 28);
+}
+
+.formular {
+  border-radius: 5px;
+  background-color: black;
+  padding: 20px;
+}
